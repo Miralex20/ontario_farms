@@ -194,11 +194,14 @@
     text-align: center !important;
     /* padding-bottom: 6px; */
     /* float: left; */
+    margin-left: -30px;
     
   }
   .logo::after{
     margin-left: -2px;
     max-height: fit-content;
+    text-align: center;
+    font-size: 1rem;
   }
   .d_none {
     display: none;
