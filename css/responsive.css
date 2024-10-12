@@ -187,12 +187,18 @@
 
 @media (max-width: 575px) {
   .header {
-    padding: 30px 0px 30px 0px;
+    /* padding: 30px 0px 30px 0px; */
+    height: fit-content;
   }
   .logo {
     text-align: center !important;
     /* padding-bottom: 6px; */
-    float: left;
+    /* float: left; */
+    
+  }
+  .logo::after{
+    margin-left: -2px;
+    max-height: fit-content;
   }
   .d_none {
     display: none;
