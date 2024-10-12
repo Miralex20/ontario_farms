@@ -382,9 +382,7 @@ ul.btn li:last-child {
   /* position: absolute; */
   content: "ONTARIO FARMS";
   width: 100px;
-  /* height: 110px; */
-  /* left: -45px; */
-  /* top: -30px; */
+ 
   padding: 25px 25px;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -1045,7 +1043,7 @@ ul.link li a::after {
   max-height: 50rem;
   margin: auto;
   overflow: hidden;
-  background-color: var(--root-green);
+  
   border-radius: 0.5rem;
 }
 
@@ -1065,10 +1063,10 @@ img.displaySlide {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 2rem;
+  font-size: 1.5rem;
   border: none;
-  color: var(--root-orange);
-  background-color: var(--root-green);
+  color: var(--root-green);
+  background: beige;
   cursor: pointer;
   padding: 10px 15px;
 }
@@ -1087,4 +1085,8 @@ img.displaySlide {
   to {
     opacity: 1;
   }
+}
+
+body {
+  background: beige;
 }
